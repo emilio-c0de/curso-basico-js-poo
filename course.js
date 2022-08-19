@@ -6,6 +6,7 @@ export default class Course{
         this.classes = classes;
         this.isFree  = isFree;
         this.lang    = lang;
+        this.changeProp='change'
     }
 
     get getName(){
